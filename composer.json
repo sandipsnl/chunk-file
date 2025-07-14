@@ -1,0 +1,33 @@
+{
+  "name": "sandip/chunk-upload",
+  "description": "Laravel package for chunked file upload",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sandip Sanjel",
+      "email": "you@example.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "illuminate/support": "^8.0",
+    "illuminate/filesystem": "^8.0",
+    "illuminate/routing": "^8.0",
+    "illuminate/container": "^8.0",
+    "illuminate/http": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ChunkUpload\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../chunk-file"
+    }
+  ]
+}
